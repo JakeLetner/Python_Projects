@@ -1,13 +1,11 @@
-# 🚨 Don't change the code below 👇
-test_seed = int(input("Create a seed number: "))
-
- # 🚨 Don't change the code above 👆 It's only for testing your code.
-	 
-#Write the rest of your code below this line 👇
 import random
 
-random_side = random.randint(0,1)
-if random_side == 1:
+heads = 0
+tails = 1
+
+random_integer = random.randint(0,1)
+
+if random_integer == 0:
     print("Heads")
 else:
     print("Tails")
